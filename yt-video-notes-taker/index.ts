@@ -33,7 +33,7 @@ async function main(url: string, lecture_num: number) {
       model: "moonshotai/kimi-k2.6",
       stream: true,
       temperature: 0.15,
-      maxTokens: 10000,
+      maxTokens: 1000000,
     });
     for await (const chunk of response) {
       writeStream.write(chunk);
