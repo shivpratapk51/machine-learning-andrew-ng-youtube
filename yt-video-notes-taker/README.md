@@ -98,3 +98,5 @@ node .\index.ts "https://youtu.be/jGwO_UgTS7I" 1
 ```
 
 Then open `../lec-1/notes.md` to view the generated lecture notes.
+
+
