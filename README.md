@@ -1,4 +1,4 @@
-# Machine Learning Andrew Ng YouTube Notes
+# YouTube Notes
 
 This repository contains a simple workflow for extracting YouTube transcripts and generating structured Markdown lecture notes using an LLM.
 

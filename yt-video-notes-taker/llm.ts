@@ -1,5 +1,7 @@
 import axios from "axios";
 import z from "zod";
+import dotenv from "dotenv"
+dotenv.config()
 
 export const inputSchema = z.object({
   query: z.string(),
@@ -7,7 +9,7 @@ export const inputSchema = z.object({
   maxTokens: z.number().optional().default(512),
   temperature: z.number().optional().default(0.2),
   stream: z.boolean().optional().default(true),
-  model: z.string().default("deepseek-ai/deepseek-v4-pro")
+  model: z.string().default("google/gemma-3n-e4b-it")
 });
 
 export type LLMInput = z.infer<typeof inputSchema>;
