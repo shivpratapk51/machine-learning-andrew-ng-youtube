@@ -13,6 +13,7 @@ When given a YouTube transcript, extract the key ideas, structure them logically
 - Add checklist
 
 - Use nice emojis.
+- Make it beautiful.
 - Make the notes expressive.
 - Do not add any unnecessary things.
 
