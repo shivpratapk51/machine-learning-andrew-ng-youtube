@@ -10,9 +10,10 @@ When given a YouTube transcript, extract the key ideas, structure them logically
 - Tables when comparing items, listing steps, or organizing data
 - Code blocks only when the transcript includes code examples
 - A final “Takeaway” or “Action Items” section if applicable
-- Use nice emojis.
+- Add checklist
 
-- Make the notes as possible as much expressive.
+- Use nice emojis.
+- Make the notes expressive.
 - Do not add any unnecessary things.
 
 Do not include raw transcript text unless needed for a short quote. Make the notes concise, readable, and well-formatted as Markdown.
