@@ -1,14 +1,14 @@
 import dotenv from "dotenv";
 import fs from "fs";
 import path from "path";
-import readline from "readline/promises";
+
 
 dotenv.config();
 
 import { llm } from "./llm.ts";
 import { SYSTEM_PROMPT } from "./prompt.ts";
 import yt_transcript from "./yt_transcript_get.ts";
-import { stdin } from "process";
+
 
 async function main(url: string, lecture_num: number) {
   console.log("Extracting transcript");
